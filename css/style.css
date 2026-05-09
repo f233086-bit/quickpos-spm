@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header {
+    background: #4f46e5;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 15px;
+}
+nav a:hover { color: #c7d2fe; }
+.btn-signup {
+    background: white;
+    color: #4f46e5;
+    padding: 8px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#hero {
+    background: linear-gradient(135deg, #4f46e5, #7c3aed);
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+#hero h1 { font-size: 48px; margin-bottom: 20px; }
+#hero p { font-size: 20px; margin-bottom: 30px; color: #c7d2fe; }
+.btn-main {
+    background: white;
+    color: #4f46e5;
+    padding: 12px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+}
+.btn-main:hover { background: #e0e7ff; }
+#features {
+    padding: 80px 0;
+    background: #f9fafb;
+    text-align: center;
+}
+#features h2 { font-size: 36px; margin-bottom: 50px; color: #4f46e5; }
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.feature-card {
+    background: white;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+.feature-card .icon { font-size: 40px; margin-bottom: 15px; }
+.feature-card h3 { font-size: 18px; margin-bottom: 10px; color: #4f46e5; }
+.feature-card p { font-size: 14px; color: #666; }
+#pricing {
+    padding: 80px 0;
+    text-align: center;
+}
+#pricing h2 { font-size: 36px; margin-bottom: 50px; color: #4f46e5; }
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.pricing-card {
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 4

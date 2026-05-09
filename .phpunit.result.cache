@@ -1,0 +1,1 @@
+{"version":2,"defects":[],"times":{"ContactFormTest::testEmptyNameFails":0.013,"ContactFormTest::testInvalidEmailFails":0.001,"ContactFormTest::testValidEmailPasses":0.001,"ContactFormTest::testEmptyMessageFails":0,"ContactFormTest::testAllValidDataPasses":0.002}}
